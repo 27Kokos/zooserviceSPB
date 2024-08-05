@@ -103,13 +103,12 @@
   }
 
   #home-slider .slider-house {
-    width: 250px;
-    right: 90px;
-    bottom: -20px;
+    right: 200px;
+    
   }
 
   #home-slider .slider-sun {
-    right: 255px;
+    right: 280px;
     bottom: 65px;
     width: 60px
   }
@@ -197,7 +196,7 @@
   }
 
   h2{
-    font-size:20px;
+    font-size:30px;
   }
 
   .padding{

@@ -15,7 +15,7 @@
     background: #fff;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 22px;
     color: #000;
   }
@@ -249,6 +249,60 @@
 .social-icons ul li a:focus{  
   background: none;
 }
+
+.footer{
+  background:#3ca9db8b;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:gray;
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
 
 #header .navbar {
   background: #fff;
@@ -556,7 +610,7 @@ ul.sub-menu {
 
 #home-slider .slider-hill {
   position: absolute;
-  right: 0;
+  right: 50px;
   bottom: 0;
 }
 
@@ -567,8 +621,8 @@ ul.sub-menu {
 
 #home-slider .slider-house {
   position: absolute;
-  right: 110px;
-  bottom: -30px;
+  right: 140px;
+  bottom: -48px;
 }
 
 .animate-in .slider-house {
@@ -579,7 +633,7 @@ ul.sub-menu {
 #home-slider .slider-sun {
   position: absolute;
   right: 365px;
-  bottom: 100px;
+  bottom: 350px;
 }
 
 .animate-in .slider-sun {
@@ -589,8 +643,8 @@ ul.sub-menu {
 
 #home-slider .slider-birds1 {
   position: absolute;
-  right: 470px;
-  bottom: 75px;
+  right: 550px;
+  bottom: 250px;
 }
 
 .animate-in .slider-birds1 {
@@ -667,16 +721,34 @@ ul.sub-menu {
 
 .single-service img {
   margin-bottom: 35px;
+  margin-right: 75px;
 }
 
 .single-service .fold {
   margin-bottom: 35px;
 }
 
-.single-service h2 {
+.single-service h2 {  
   margin-top: 0;
   margin-bottom: 15px;
+  height: 42px;
+  width: 320px;
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
 }
+
+.single-service h2:hover{
+  transition: 1.7s;
+  background-color: #00efdf;
+}
+
 
 .single-service p {
   padding: 0 48px;
@@ -774,8 +846,11 @@ ul.sub-menu {
 }
 
 .single-service img {
-  height: 85px;
+  height: 180px;
+  width: 180px;
 }
+
+
 
 .tour-button {
   background-image: url(../images/home/tour-icon2.png);
